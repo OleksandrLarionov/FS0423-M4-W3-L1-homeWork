@@ -1,0 +1,2 @@
+SELECT * FROM clienti WHERE nome LIKE 'Mario'
+SELECT clienti.nome, clienti.cognome FROM clienti WHERE EXTRACT(YEAR FROM anno_di_nascita) = 1982
